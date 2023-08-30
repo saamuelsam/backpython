@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- <script src="script.js"></script> -->
+</head>
+<body>
+
+<form action="/verificar_respostas" method="post">
+  <div>
+    <h2>Você possui graduação?</h2>
+
+    <input type="text" name="respostaInput" id="respostaInput">
+    <button type="submit">Enviar</button>
+
+    <p id="resultado"></p>
+  </div>
+</form>
+
+<form action="/verificar_idade" method="post">
+  <div>
+    <h2>Qual sua idade?</h2>
+
+    <input type="number" name="respostaIdade" id="respostaIdade">
+    <button type="submit">Enviar</button>
+
+    <p id="resultado2"></p>
+  </div>
+</form>
+
+<form action="/verificar_sexo" method="post">
+  <div>
+    <h2>Qual seu sexo?</h2>
+    <p>
+      <input type="radio" id="respostaMasculino" name="sexo" value="masculino">
+      Masculino
+      <input type="radio" id="respostaFeminino" name="sexo" value="feminino">
+      Feminino
+    </p>  
+    
+    <button type="submit">Enviar</button>
+
+    <p id="resultado3"></p>
+  </div>
+</form>
+</body>
+</html>
