@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+    <div>
+      <h2>Você possui graduação?</h2>
+
+      <input type="text" id="respostaInput">
+      <button type="button" onclick="verificarRespostas()">Enviar</button>
+  
+      <p id="resultado"></p>
+    </div>
+
+
+
+    <div>
+      <h2>Qual sua idade?</h2>
+
+      <input type="number" id="respostaIdade">
+      <button type="button" onclick="verficarIdade()">Enviar</button>
+  
+      <p id="resultado2"></p>
+    </div>
+
+
+    <div>
+      <h2>Qual seu sexo?</h2>
+      <p>
+        <input type="radio" id="respostaMasculino" name="q1" value="masculino">
+        Masculino
+        <input type="radio" id="respostaFeminino" name="q1" value="feminino">
+        Feminino
+      </p>  
+      
+      <button type="button" onclick="verificarSexo()">Enviar</button>
+  
+      <p id="resultado3"></p>
+    </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
