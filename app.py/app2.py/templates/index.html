@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    body {
+      background-color: #656060;
+    }
+  </style>
+</head>
+
+<body>
+  <form action="/verificar_respostas" method="post">
+  <div>
+    <h1>Qual sua cor preferida?</h1>
+    <h2>Cores</h2>
+    <input type="text" name="respostaValor" id="respostaValor">
+    <button type="submit" onclick="verificarRespostas()">Enviar</button>
+
+    <p id="resultado"></p>
+  </div>
+</form>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
